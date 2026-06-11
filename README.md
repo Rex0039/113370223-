@@ -4,8 +4,8 @@
 ---
 
 ## Student Information
-Name: [填寫你的姓名，例如：王小明]
-Student ID: [填寫你的學號，例如：111370XXX]
+Name:黃健庭
+Student ID:11330223
 
 ## Project Repository
 https://github.com/[你的GitHub帳號]/[你的專案名稱]
