@@ -19,15 +19,15 @@ https://youtube.com/watch?v=[請改成你的YouTube影片ID]
 
 ---
 
-## 🏛️ STUDY CONTEXT
+##  STUDY CONTEXT
 Adolescent sleep deprivation has emerged as a critical public health crisis, frequently linked to emotional dysregulation, impaired cognitive control, and behavioral volatility. While clinical studies establish a link between sleep deficits and generalized irritability, this project bridges data science and school safety policy by evaluating how macro-level sleep variations systematically impact acute externalized aggression (specifically physical fighting) within the school environment.
 
-## ❓ RESEARCH QUESTION
+##  RESEARCH QUESTION
 * **Primary Query:** Does nightly sleep duration significantly affect the frequency of physical fighting on school property among adolescents?
 * **Null Hypothesis ($H_0$):** Nightly sleep duration has no effect on school physical fighting frequency; the mean fighting scores across all sleep cohorts are identical ($\mu_1 = \mu_2 = \dots = \mu_7$).
 * **Alternative Hypothesis ($H_1$):** At least one sleep duration cohort exhibits a statistically distinct mean school physical fighting frequency score.
 
-## 📊 SAMPLE PROFILE (YRBS 2007)
+##  SAMPLE PROFILE (YRBS 2007)
 * **Data Source:** Centers for Disease Control and Prevention (CDC) Youth Risk Behavior Surveillance System (YRBSS) 2007 National Standard Dataset.
 * **Effective Sample Size ($N$):** **12,040 valid observations** after listwise deletion of missing records across targeted variables.
 * **Independent Variable (X) - `Sleep_Group`:** Operationalized into 7 distinct ordinal cohorts:
@@ -42,12 +42,12 @@ Adolescent sleep deprivation has emerged as a critical public health crisis, fre
 
 ---
 
-## ⚡ INFERENCE RESULTS & STATISTICAL METRICS
+##  INFERENCE RESULTS & STATISTICAL METRICS
 
 ### 1. Descriptive Summary Table
 | Sleep Duration Cohort (X) | Sample Size ($n$) | Mean Fighting Score ($\bar{Y}$) | Standard Deviation ($SD$) | Risk Profile |
 | :--- | :---: | :---: | :---: | :--- |
-| **4 hours or less** | 744 | **1.688** | 1.582 | 🚨 **Highest Aggression Peak** |
+| **4 hours or less** | 744 | **1.688** | 1.582 |  **Highest Aggression Peak** |
 | **5 hours** | 1,239 | 1.225 | 0.769 | Elevated Risk |
 | **6 hours** | 2,714 | 1.193 | 0.634 | Moderate Risk |
 | **7 hours** | 3,605 | 1.144 | 0.557 | Stabilized Low |
@@ -66,7 +66,7 @@ The Honestly Significant Difference (HSD) test reveals that the severe sleep dep
 
 ---
 
-## 📂 REPOSITORY DIRECTORY STRUCTURE
+##  REPOSITORY DIRECTORY STRUCTURE
 ```text
 ├── YRBS_2007.csv                            # Raw baseline dataset from CDC (N=12,040)
 ├── processed_data.csv                       # Systematically cleaned and recoded variable array
@@ -79,9 +79,10 @@ The Honestly Significant Difference (HSD) test reveals that the severe sleep dep
 ├── ANOVA_Results_Data.xlsx - Descriptive Statistics.csv  # Exported descriptive stats matrix
 ├── ANOVA_Results_Data.xlsx - ANOVA Results.csv           # Exported ANOVA summary metrics table
 └── ANOVA_Results_Data.xlsx - Tukey HSD Post-Hoc.csv       # Exported pairwise Tukey HSD significance table
----
 
-## 🛠️ LOCAL ENVIRONMENT SETUP & REPRODUCTION
+---
+```
+##  LOCAL ENVIRONMENT SETUP & REPRODUCTION
 
 1. **Clone the Repository:**
    ```bash
@@ -98,12 +99,16 @@ The Honestly Significant Difference (HSD) test reveals that the severe sleep dep
 
 ---
 
-## 🏫 POLICY IMPLICATIONS & CONCLUSION
+## POLICY IMPLICATIONS & CONCLUSION
 The empirical statistical evidence demonstrates a stark, non-linear relationship between sleep restrictions and adolescent campus violence. Severe sleep deficits are tightly coupled with heightened aggression. Campus administrative bodies, mental health counselors, and macroeconomic school policies (e.g., school start time delays) should structurally address adolescent sleep hygiene as a primary, preemptive measure to mitigate campus violence and optimize overall school safety.
 
 ---
 
-## 📚 REFERENCES
+##  REFERENCES
 * **Centers for Disease Control and Prevention (CDC).** (2008). *Youth Risk Behavior Surveillance System (YRBSS): 2007 National Standard Dataset*. U.S. Department of Health and Human Services.
 * **Owens, J., Belon, K., & Moss, P.** (2010). Impact of delaying school start time on adolescent sleep, mood, and behavior. *Archives of Pediatrics & Adolescent Medicine*, 164(7), 608-614.
 * **McKinney, W.** (2010). Data structures for statistical computing in Python. *Proceedings of the 9th Python in Science Conference*, 445, 51–56.
+
+
+
+
