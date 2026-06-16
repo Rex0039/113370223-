@@ -79,3 +79,30 @@ The Honestly Significant Difference (HSD) test reveals that the severe sleep dep
 ├── ANOVA_Results_Data.xlsx - Descriptive Statistics.csv  # Exported descriptive stats matrix
 ├── ANOVA_Results_Data.xlsx - ANOVA Results.csv           # Exported ANOVA summary metrics table
 └── ANOVA_Results_Data.xlsx - Tukey HSD Post-Hoc.csv       # Exported pairwise Tukey HSD significance table
+
+## 🛠️ LOCAL ENVIRONMENT SETUP & REPRODUCTION
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/[你的GitHub帳號]/[你的專案倉庫名稱].git
+   cd [你的專案倉庫名稱]
+   ```
+2. **Install Core Computational Packages:**
+   ```bash
+   pip install pandas numpy scipy seaborn matplotlib statsmodels
+   ```
+3. **Run Pipeline Execution:**
+   - Execute recoding pipeline: `python "data clean.py"`
+   - Execute inferential model & plot exports: `python main_analysis.py`
+
+---
+
+## 🏫 POLICY IMPLICATIONS & CONCLUSION
+The empirical statistical evidence demonstrates a stark, non-linear relationship between sleep restrictions and adolescent campus violence. Severe sleep deficits are tightly coupled with heightened aggression. Campus administrative bodies, mental health counselors, and macroeconomic school policies (e.g., school start time delays) should structurally address adolescent sleep hygiene as a primary, preemptive measure to mitigate campus violence and optimize overall school safety.
+
+---
+
+## 📚 REFERENCES
+* **Centers for Disease Control and Prevention (CDC).** (2008). *Youth Risk Behavior Surveillance System (YRBSS): 2007 National Standard Dataset*. U.S. Department of Health and Human Services.
+* **Owens, J., Belon, K., & Moss, P.** (2010). Impact of delaying school start time on adolescent sleep, mood, and behavior. *Archives of Pediatrics & Adolescent Medicine*, 164(7), 608-614.
+* **McKinney, W.** (2010). Data structures for statistical computing in Python. *Proceedings of the 9th Python in Science Conference*, 445, 51–56.
