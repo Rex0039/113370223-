@@ -15,7 +15,7 @@ https://github.com/Rex0039/113370223-/blob/main/README.md
 
 ## Presentation Video
 
-https://youtube.com/watch?v=[請改成你的YouTube影片ID]
+https://youtu.be/5aF8BtP9Kcc
 
 ---
 
