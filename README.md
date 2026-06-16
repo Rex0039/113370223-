@@ -11,11 +11,11 @@ Student ID: 113370223
 
 ## Project Repository
 
-https://github.com/Rex0039/113370223-/edit/main/README.md
+https://github.com/[請改成你的GitHub帳號]/[請改成你的專案倉庫名稱]
 
 ## Presentation Video
 
-https://youtube.com/watch?v=[你的YouTube影片ID]
+https://youtube.com/watch?v=[請改成你的YouTube影片ID]
 
 ---
 
@@ -45,7 +45,7 @@ Adolescent sleep deprivation has emerged as a critical public health crisis, fre
 ## ⚡ INFERENCE RESULTS & STATISTICAL METRICS
 
 ### 1. Descriptive Summary Table
-| Sleep Duration Cohort (X) | Sample Size ($n$) | Mean Fighting Score ($ ar{Y}$) | Standard Deviation ($SD$) | Risk Profile |
+| Sleep Duration Cohort (X) | Sample Size ($n$) | Mean Fighting Score ($\bar{Y}$) | Standard Deviation ($SD$) | Risk Profile |
 | :--- | :---: | :---: | :---: | :--- |
 | **4 hours or less** | 744 | **1.688** | 1.582 | 🚨 **Highest Aggression Peak** |
 | **5 hours** | 1,239 | 1.225 | 0.769 | Elevated Risk |
@@ -58,7 +58,7 @@ Adolescent sleep deprivation has emerged as a critical public health crisis, fre
 ### 2. Inferential Model: One-Way ANOVA
 To test the macro-variance across cohorts, a One-Way Analysis of Variance (ANOVA) was executed:
 * **$F$-Statistic:** `67.7102`
-* **$p$-Value:** `3.37492e-83` (Significance Threshold $ lpha = 0.05$)
+* **$p$-Value:** `3.37492e-83` (Significance Threshold $\alpha = 0.05$)
 * **Statistical Decision:** **REJECT THE NULL HYPOTHESIS ($H_0$)** with absolute statistical certainty. Sleep duration heavily and systematically impacts adolescent school-based physical aggression.
 
 ### 3. Post-Hoc Tukey HSD Highlights
@@ -68,40 +68,14 @@ The Honestly Significant Difference (HSD) test reveals that the severe sleep dep
 
 ## 📂 REPOSITORY DIRECTORY STRUCTURE
 ```text
-├── YRBS_2007.csv                    # Raw baseline dataset from CDC (N=12,040 after filters)
-├── processed_data.csv               # Systematically cleaned and recoded variable array
-├── data clean.py                    # Script executing NaN filtering & categorical mapping
-├── main_analysis.py                 # Script executing One-Way ANOVA, Post-Hoc HSD, and plots
-├── final_project_analysis.ipynb     # Jupyter Notebook integrating complete analytical workflow
-├── sleep_vs_violence_boxplot.png    # Figure 1: Outlier distribution showing zero-inflation
-├── sleep_vs_violence_mean_trend.png # Figure 2: Linear trend tracking isolated means with 95% CI
-├── academic_presentation_dashboard.pdf # One-Page Landscape High-Impact Infographic Presentation
-└── README.md                        # Master Documentation (This file)
-```
-
-## 🛠️ LOCAL ENVIRONMENT SETUP & REPRODUCTION
-
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/[你的GitHub帳號]/[你的專案倉庫名稱].git
-   cd [你的專案倉庫名稱]
-   ```
-2. **Install Core Computational Packages:**
-   ```bash
-   pip install pandas numpy scipy seaborn matplotlib statsmodels
-   ```
-3. **Run Pipeline Execution:**
-   - Execute recoding pipeline: `python "data clean.py"`
-   - Execute inferential model & plot exports: `python main_analysis.py`
-
----
-
-## 🏫 POLICY IMPLICATIONS & CONCLUSION
-The empirical statistical evidence demonstrates a stark, non-linear relationship between sleep restrictions and adolescent campus violence. Severe sleep deficits are tightly coupled with heightened aggression. Campus administrative bodies, mental health counselors, and macroeconomic school policies (e.g., school start time delays) should structurally address adolescent sleep hygiene as a primary, preemptive measure to mitigate campus violence and optimize overall school safety.
-
----
-
-## 📚 REFERENCES
-* **Centers for Disease Control and Prevention (CDC).** (2008). *Youth Risk Behavior Surveillance System (YRBSS): 2007 National Standard Dataset*. U.S. Department of Health and Human Services.
-* **Owens, J., Belon, K., & Moss, P.** (2010). Impact of delaying school start time on adolescent sleep, mood, and behavior. *Archives of Pediatrics & Adolescent Medicine*, 164(7), 608-614.
-* **McKinney, W.** (2010). Data structures for statistical computing in Python. *Proceedings of the 9th Python in Science Conference*, 445, 51–56.
+├── YRBS_2007.csv                            # Raw baseline dataset from CDC (N=12,040)
+├── processed_data.csv                       # Systematically cleaned and recoded variable array
+├── data clean.py                            # Python script for data preprocessing & NaN filtering
+├── main_analysis.py                         # Python script for running models and plotting
+├── sleep_vs_violence_boxplot.png            # Figure 1: Outlier distribution showing zero-inflation
+├── sleep_vs_violence_mean_trend.png         # Figure 2: Linear trend tracking isolated means with 95% CI
+├── one_page_summary.pdf                     # One-Page Landscape High-Impact Infographic Presentation
+├── Project_Summary.txt                      # Automated text summary report of research findings
+├── ANOVA_Results_Data.xlsx - Descriptive Statistics.csv  # Exported descriptive stats matrix
+├── ANOVA_Results_Data.xlsx - ANOVA Results.csv           # Exported ANOVA summary metrics table
+└── ANOVA_Results_Data.xlsx - Tukey HSD Post-Hoc.csv       # Exported pairwise Tukey HSD significance table
