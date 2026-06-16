@@ -11,7 +11,7 @@ Student ID: 113370223
 
 ## Project Repository
 
-https://github.com/[你的GitHub帳號]/[你的專案倉庫名稱]
+https://github.com/Rex0039/113370223-/edit/main/README.md
 
 ## Presentation Video
 
