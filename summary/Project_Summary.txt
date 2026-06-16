@@ -1,0 +1,31 @@
+==================================================
+FINAL PROJECT SUMMARY: SLEEP & SCHOOL VIOLENCE
+==================================================
+
+[Student Information]
+Name: [Please Insert Your Name]
+Student ID: [Please Insert Your ID]
+
+[1. Research Question]
+Does adolescent sleep duration significantly affect the frequency of physical fighting on school property?
+
+[2. Variables]
+- Independent Variable (X): Sleep Duration (Categorical: 4 hours or less to 10 hours or more)
+- Dependent Variable (Y): Physical Fighting at School (Continuous/Ordinal frequency score)
+
+[3. Methodology]
+- Dataset: YRBS 2007
+- Statistical Test: One-way ANOVA followed by Post-hoc Tukey HSD test.
+- Valid Sample Size: 12040 observations.
+
+[4. Key Findings & Results]
+- F-Statistic: 67.7102
+- P-Value: 3.37492e-83
+
+Result Interpretation:
+Since the p-value is less than the alpha level of 0.05, the result is STATISTICALLY SIGNIFICANT. 
+We reject the null hypothesis. The data strongly indicates that different sleep durations have a significant impact on the frequency of physical fighting at school.
+
+[5. Conclusion]
+Adolescents with shorter sleep durations (especially those sleeping 4 hours or less) exhibit significantly higher frequencies of school violence. Promoting healthy sleep habits may serve as a potential intervention to improve school safety and reduce interpersonal physical fighting among high school students.
+==================================================
